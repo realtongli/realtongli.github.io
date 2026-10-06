@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Tong Li - Academic Homepage</title>
+<title>Tong Li (李桐) | PhD Candidate, UniSQ</title>
+<meta name="description" content="Tong Li, PhD candidate at the University of Southern Queensland. Research on deep learning for cybersecurity (zero-day API attack detection) and power equipment fault diagnosis."/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Georgia',serif;font-size:16px;color:#333;line-height:1.7;background:#fff}
@@ -55,6 +56,7 @@ h2:first-child{margin-top:0}
 .edu-item{margin-bottom:.9rem;padding-left:1rem;border-left:3px solid #e8eaf6}
 .edu-item strong{color:#222}
 .edu-item span{color:#555;font-size:.9rem}
+.pub-tag{display:inline-block;font-size:.75rem;font-family:Arial,sans-serif;background:#1a73e8;color:#fff;border-radius:3px;padding:0 .4rem;margin-right:.4rem;vertical-align:middle}
 /* Footer */
 footer{text-align:center;padding:1.5rem;border-top:1px solid #eee;color:#999;font-size:.85rem;margin-top:3rem}
 /* Responsive */
@@ -67,115 +69,107 @@ footer{text-align:center;padding:1.5rem;border-top:1px solid #eee;color:#999;fon
   <a href="#about">About</a>
   <a href="#publications">Publications</a>
   <a href="#news">News</a>
-  <a href="cv.pdf" target="_blank">CV</a>
   <a href="#contact">Contact</a>
 </nav>
 <div class="container">
 <div class="main-layout">
-  <!-- Sidebar -->
   <aside class="sidebar">
     <div class="avatar-wrap">
-      <!-- Replace src with your real photo URL -->
+      <!-- TODO: add photo, e.g. <img src="photo.jpg" alt="Tong Li"> -->
       <div class="avatar-placeholder">&#128100;</div>
     </div>
-    <div class="sidebar-name">Tong Li</div>
-    <div class="sidebar-title">Ph.D. Candidate / Researcher<br>Department Name<br>University Name</div>
+    <div class="sidebar-name">Tong Li (李桐)</div>
+    <div class="sidebar-title">Ph.D. Candidate<br>School of Science, Engineering and Digital Technologies<br>University of Southern Queensland</div>
     <div class="sidebar-links">
-      <a href="#"><span class="icon">&#128205;</span> City, Country</a>
-      <a href="mailto:yourname@university.edu"><span class="icon">&#128231;</span> Email</a>
-      <a href="https://github.com/WHOSYOURTONY" target="_blank"><span class="icon">&#128025;</span> GitHub</a>
-      <a href="https://scholar.google.com/" target="_blank"><span class="icon">&#127891;</span> Google Scholar</a>
-      <a href="https://twitter.com/" target="_blank"><span class="icon">&#128038;</span> Twitter / X</a>
-      <a href="cv.pdf" target="_blank"><span class="icon">&#128196;</span> CV / Resume</a>
+      <a href="https://www.unisq.edu.au/" target="_blank"><span class="icon">&#128205;</span> Toowoomba, QLD, Australia</a>
+      <a href="https://orcid.org/0009-0009-2462-0988" target="_blank"><span class="icon">&#127891;</span> ORCID</a>
+      <a href="https://github.com/realtongli" target="_blank"><span class="icon">&#128025;</span> GitHub</a>
+      <!-- TODO: Email, Google Scholar, LinkedIn, X, CV -->
     </div>
   </aside>
-  <!-- Main Content -->
   <main class="content">
-    <!-- About -->
     <section id="about">
       <h2>About Me</h2>
       <div class="about-text">
-        <p>Welcome to my homepage! I am a [Ph.D. student / Researcher / Postdoc] in the <a href="#">Department of ...</a> at <a href="#">University Name</a>, advised by <a href="#">Prof. Advisor Name</a>.</p>
-        <p>My research interests lie in [Your Research Area]. I am particularly interested in [Specific Topics]. Before joining [Current University], I received my B.S./M.S. degree from [Previous University] in [Year].</p>
-        <p>I am currently [open to opportunities / not looking for positions]. Feel free to reach me at <a href="mailto:yourname@university.edu">yourname@university.edu</a>.</p>
+        <p>I am a Ph.D. candidate in the School of Science, Engineering and Digital Technologies at the <a href="https://www.unisq.edu.au/" target="_blank">University of Southern Queensland (UniSQ)</a>, Australia.</p>
+        <p>My research develops deep learning methods, particularly capsule networks, for reliable detection and diagnosis in critical systems. My current work focuses on zero-day API attack detection with runtime-updatable models. Previously, I worked on fault diagnosis of power transformers using dissolved gas analysis (DGA), domain knowledge integration, and generative data augmentation.</p>
+        <p>Before joining UniSQ, I received my Bachelor's and Master's degrees from <a href="https://english.ncepu.edu.cn/" target="_blank">North China Electric Power University (NCEPU)</a>.</p>
+        <p>I am open to research collaborations and to academic and industry opportunities in AI for cybersecurity and intelligent energy systems.</p>
       </div>
     </section>
-    <!-- Research Interests -->
     <section class="interests" id="research">
       <h2>Research Interests</h2>
       <ul>
-        <li>Research Interest 1 (e.g., Machine Learning Security)</li>
-        <li>Research Interest 2 (e.g., Natural Language Processing)</li>
-        <li>Research Interest 3 (e.g., Computer Vision)</li>
+        <li>AI for Cybersecurity: zero-day API attack detection, adaptive and updatable detection models</li>
+        <li>Capsule Networks and Deep Representation Learning</li>
+        <li>Fault Diagnosis of Power Equipment: dissolved gas analysis, knowledge-guided learning</li>
+        <li>Data Augmentation with Generative Models for Imbalanced and Small Datasets</li>
       </ul>
     </section>
-    <!-- News -->
     <section id="news">
       <h2>News</h2>
       <ul class="news-list">
-        <li><span class="news-date">[2026.05]</span><span>Paper accepted at Conference Name 2026.</span></li>
-        <li><span class="news-date">[2026.03]</span><span>Gave a talk at Workshop Name.</span></li>
-        <li><span class="news-date">[2025.12]</span><span>Started internship at [Company / Lab].</span></li>
-        <li><span class="news-date">[2025.09]</span><span>Joined [University Name] as a Ph.D. student.</span></li>
+        <li><span class="news-date">[2026]</span><span><em>HotPatchCaps</em> published in <em>IEEE Transactions on Network and Service Management</em>.</span></li>
+        <li><span class="news-date">[2024.11]</span><span>Paper presented at IEEE EI2 2024.</span></li>
+        <li><span class="news-date">[2024]</span><span>Paper published in <em>IEEE Transactions on Dielectrics and Electrical Insulation</em>.</span></li>
+        <li><span class="news-date">[2023.11]</span><span>Paper presented at China Automation Congress (CAC) 2023.</span></li>
       </ul>
     </section>
-    <!-- Publications -->
     <section id="publications">
-      <h2>Selected Publications</h2>
+      <h2>Publications</h2>
       <ul class="pub-list">
         <li>
-          <div class="pub-authors"><span class="me">Tong Li</span>, Co-author A, and Co-author B.</div>
-          <div><a class="pub-title" href="#">"Title of Your Paper Here"</a>. In <span class="pub-venue">Conference / Journal Name (VENUE)</span>, 2026.</div>
+          <div><span class="pub-tag">Journal</span><a class="pub-title" href="https://doi.org/10.1109/TNSM.2026.3713465" target="_blank">"HotPatchCaps: A Capsule Network With Runtime Hot Patching for Zero-Day API Attack Detections"</a></div>
+          <div class="pub-authors"><span class="me">Tong Li</span>, Shicheng Wei, Wencheng Yang, and Yan Li.</div>
+          <div><span class="pub-venue">IEEE Transactions on Network and Service Management (TNSM)</span>, 2026.</div>
         </li>
         <li>
-          <div class="pub-authors">Co-author A, <span class="me">Tong Li</span>, and Co-author C.</div>
-          <div><a class="pub-title" href="#">"Title of Another Paper"</a>. In <span class="pub-venue">Conference / Journal Name (VENUE)</span>, 2025.</div>
+          <div><span class="pub-tag">Journal</span><a class="pub-title" href="https://doi.org/10.1109/TDEI.2024.3374246" target="_blank">"Dissolved Gas Analysis for Power Transformer Fault Diagnosis Combining Domain Knowledge and Capsule Network"</a></div>
+          <!-- TODO: full author list -->
+          <div class="pub-authors"><span class="me">Tong Li</span>, et al.</div>
+          <div><span class="pub-venue">IEEE Transactions on Dielectrics and Electrical Insulation (TDEI)</span>, 2024.</div>
         </li>
         <li>
-          <div class="pub-authors"><span class="me">Tong Li</span> and Co-author D.</div>
-          <div><a class="pub-title" href="#">"Title of a Third Paper"</a>. In <span class="pub-venue">Conference / Journal Name (VENUE)</span>, 2024.</div>
+          <div><span class="pub-tag">Conference</span><a class="pub-title" href="https://doi.org/10.1109/EI264398.2024.10990666" target="_blank">"Research on Transformer Fault Diagnosis Using Boundary Equilibrium Generative Adversarial Network for Data Augmentation"</a></div>
+          <div class="pub-authors">Bing Luo, Weihong Yang, Tingting Wang, Lei Su, <span class="me">Tong Li</span>, and Xin Shi.</div>
+          <div><span class="pub-venue">IEEE 8th Conference on Energy Internet and Energy System Integration (EI2)</span>, 2024.</div>
+        </li>
+        <li>
+          <div><span class="pub-tag">Conference</span><a class="pub-title" href="https://doi.org/10.1109/CAC59555.2023.10450255" target="_blank">"Dissolved Gas Analysis for Transformer Fault Diagnosis Based on Capsule Network"</a></div>
+          <div class="pub-authors"><span class="me">Tong Li</span>, Xin Shi, Jing Teng, Fang Fang, Tingting Wang, and Bing Luo.</div>
+          <div><span class="pub-venue">China Automation Congress (CAC)</span>, 2023.</div>
         </li>
       </ul>
     </section>
-    <!-- Awards -->
-    <section id="awards">
-      <h2>Awards &amp; Honors</h2>
-      <ul class="award-list">
-        <li>Award Name, Awarding Organization, Year</li>
-        <li>Fellowship / Scholarship Name, Year</li>
-        <li>Best Paper Award, Conference Name, Year</li>
-      </ul>
-    </section>
-    <!-- Education -->
     <section id="education">
       <h2>Education</h2>
       <ul class="edu-list">
+        <!-- TODO: majors, years, advisor -->
         <li class="edu-item">
-          <strong>Ph.D. in [Field]</strong>, University Name, [Start Year] - Present<br>
-          <span>Advisor: Prof. Advisor Name</span>
+          <strong>Ph.D. Candidate</strong>, University of Southern Queensland, Australia<br>
+          <span>School of Science, Engineering and Digital Technologies</span>
         </li>
         <li class="edu-item">
-          <strong>M.S. in [Field]</strong>, University Name, [Year]<br>
-          <span>Thesis: "Thesis Title"</span>
+          <strong>Master's Degree</strong>, North China Electric Power University, China
         </li>
         <li class="edu-item">
-          <strong>B.S. in [Field]</strong>, University Name, [Year]
+          <strong>Bachelor's Degree</strong>, North China Electric Power University, China
         </li>
       </ul>
     </section>
-    <!-- Contact -->
     <section id="contact">
       <h2>Contact</h2>
       <p style="color:#333;font-size:.95rem">
-        Email: <a href="mailto:yourname@university.edu">yourname@university.edu</a><br>
-        Office: Building Name, Room XXX, University Name, City, Country
+        <!-- TODO: email -->
+        ORCID: <a href="https://orcid.org/0009-0009-2462-0988" target="_blank">0009-0009-2462-0988</a><br>
+        GitHub: <a href="https://github.com/realtongli" target="_blank">realtongli</a>
       </p>
     </section>
   </main>
 </div>
 </div>
 <footer>
-  <p>Last updated: May 2026 &nbsp;&middot;&nbsp; Template inspired by academic homepage designs</p>
+  <p>Last updated: October 2026</p>
 </footer>
 </body>
 </html>
