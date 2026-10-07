@@ -21,6 +21,7 @@ nav a:hover{color:#1a73e8;text-decoration:none}
 /* Sidebar */
 .sidebar{text-align:center}
 .avatar-wrap{margin-bottom:1rem}
+.sidebar>div{min-width:0}
 .avatar-wrap img{width:180px;height:180px;border-radius:8px;object-fit:cover;border:1px solid #ddd}
 .avatar-placeholder{width:180px;height:180px;border-radius:8px;background:#e8eaf6;display:flex;align-items:center;justify-content:center;font-size:4rem;color:#9fa8da;margin:0 auto}
 .sidebar-name{font-size:1.15rem;font-weight:bold;color:#222;margin-bottom:.25rem}
@@ -60,7 +61,7 @@ h2:first-child{margin-top:0}
 /* Footer */
 footer{text-align:center;padding:1.5rem;border-top:1px solid #eee;color:#999;font-size:.85rem;margin-top:3rem}
 /* Responsive */
-@media(max-width:640px){.main-layout{grid-template-columns:1fr}.sidebar{text-align:left;display:flex;gap:1rem;align-items:flex-start}.avatar-wrap img,.avatar-placeholder{width:100px;height:100px}}
+@media(max-width:640px){nav{padding:0 1rem;gap:1rem;overflow-x:auto}.nav-name{display:none}nav a{white-space:nowrap}.container{padding:1.5rem 1rem 3rem}.main-layout{grid-template-columns:1fr;gap:1.5rem}.sidebar{text-align:left;display:grid;grid-template-columns:100px 1fr;gap:.5rem 1rem;align-items:start}.avatar-wrap{grid-row:span 2;margin:0}.avatar-wrap img,.avatar-placeholder{width:100px;height:100px}.sidebar-links{grid-column:1/-1;display:block}.sidebar-links a{word-break:break-all}.news-list li{grid-template-columns:72px 1fr}}
 </style>
 </head>
 <body>
@@ -83,7 +84,9 @@ footer{text-align:center;padding:1.5rem;border-top:1px solid #eee;color:#999;fon
       <a href="https://www.unisq.edu.au/" target="_blank"><span class="icon">&#128205;</span> Toowoomba, QLD, Australia</a>
       <a href="https://orcid.org/0009-0009-2462-0988" target="_blank"><span class="icon">&#127891;</span> ORCID</a>
       <a href="https://github.com/realtongli" target="_blank"><span class="icon">&#128025;</span> GitHub</a>
-      <!-- TODO: Email, Google Scholar, LinkedIn, X, CV -->
+      <a href="mailto:tong.li@unisq.edu.au"><span class="icon">&#128231;</span> tong.li@unisq.edu.au</a>
+      <a href="mailto:litongrun2022@gmail.com"><span class="icon">&#128231;</span> litongrun2022@gmail.com</a>
+      <!-- TODO: Google Scholar, LinkedIn, X, CV -->
     </div>
   </aside>
   <main class="content">
@@ -92,7 +95,7 @@ footer{text-align:center;padding:1.5rem;border-top:1px solid #eee;color:#999;fon
       <div class="about-text">
         <p>I am a Ph.D. candidate in Artificial Intelligence at the <a href="https://www.unisq.edu.au/" target="_blank">University of Southern Queensland (UniSQ)</a>, Australia, supervised by Yan Li and Wencheng Yang. My Ph.D. is funded by the China Scholarship Council (CSC) and the Australian Research Council (ARC).</p>
         <p>My research focuses on network security and AI security, in particular zero-day API attack detection, intrusion detection, and keeping deployed detection models up to date through runtime hot patching. I build on capsule networks, generative adversarial networks and data augmentation, and on combining domain knowledge with data-driven models. My earlier work addressed intelligent fault diagnosis of power transformers based on dissolved gas analysis (DGA).</p>
-        <p>Before joining UniSQ, I received my M.S. in Artificial Intelligence and B.Eng. in Electrical Engineering and Automation from <a href="https://english.ncepu.edu.cn/" target="_blank">North China Electric Power University (NCEPU)</a>.</p>
+        <p>Before joining UniSQ, I received my M.S. in Artificial Intelligence and B.Eng. in Electrical Engineering and Automation from <a href="https://english.ncepu.edu.cn/" target="_blank">North China Electric Power University (NCEPU)</a>, where I was supervised by Xin Shi.</p>
         <p>I serve as a reviewer for IEEE TDSC, IEEE Communications Magazine and IEEE TNSM, and I am open to research collaborations and to academic and industry opportunities in cybersecurity and trustworthy AI.</p>
       </div>
     </section>
@@ -173,7 +176,7 @@ footer{text-align:center;padding:1.5rem;border-top:1px solid #eee;color:#999;fon
     <section id="contact">
       <h2>Contact</h2>
       <p style="color:#333;font-size:.95rem">
-        <!-- TODO: email -->
+        Email: <a href="mailto:tong.li@unisq.edu.au">tong.li@unisq.edu.au</a> (university) &middot; <a href="mailto:litongrun2022@gmail.com">litongrun2022@gmail.com</a> (permanent)<br>
         ORCID: <a href="https://orcid.org/0009-0009-2462-0988" target="_blank">0009-0009-2462-0988</a><br>
         GitHub: <a href="https://github.com/realtongli" target="_blank">realtongli</a>
       </p>
